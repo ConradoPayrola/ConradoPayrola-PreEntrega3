@@ -1,0 +1,11 @@
+1- Agregue las etiquetas meta description y keywords.
+
+2-Respecto a las imagenes ademas de comprimirlas con la herramienta ResizePixel mostradas
+en clase , coloque las etiquetas alt para una mayor accesibilidad del sitio.
+
+3- Puse BreadCrumbs en todas las paginas para permitir una navegación mas 
+sencilla a los usuarios,
+
+4- Coloque un titulo apropiado a cada pagina.
+
+5-Hice un uso adecuado respecto a la organizacion de los archivos de mi proyecto.
