@@ -9,6 +9,10 @@
   font-style: normal;
 }
 
+body {
+  height: 100%;
+}
+
 header nav {
   height: 12%;
   background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(2, 37, 78) 0%, rgb(4, 56, 126) 19.7%, rgb(85, 245, 221) 100.2%);
@@ -119,10 +123,6 @@ h4 {
   padding-bottom: 3em;
 }
 
-.separador {
-  height: 18em;
-}
-
 .carousel-control-prev-icon {
   background-color: rgba(0, 0, 0, 0.905);
 }
@@ -150,6 +150,11 @@ form {
   height: 100%;
   padding-top: 2em;
   background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+  width: 50%;
+  margin-left: 23em;
+  padding: 3em;
+  padding-bottom: 9em;
+  border-radius: 1em;
 }
 form .mb-3 {
   margin-bottom: 1rem;
@@ -196,4 +201,74 @@ form .mb-3 .form-text {
 }
 .container .recursos {
   background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%) !important;
+}
+
+div.container.recursos {
+  background: #34e89e;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0f3443, #34e89e);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+.button {
+  --font-color: #323232;
+  --bg-color: #fff;
+  --main-color: #323232;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid var(--main-color);
+  background-color: var(--bg-color);
+  box-shadow: 4px 4px var(--main-color);
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--font-color);
+  cursor: pointer;
+  margin-left: 1.5em;
+  margin-bottom: 2em;
+}
+
+.button:active {
+  box-shadow: 0px 0px var(--main-color);
+  transform: translate(3px, 3px);
+}
+
+#trabajadores {
+  width: 80%;
+  height: 24em;
+  margin: 1em;
+  margin-left: 8em;
+  margin-bottom: 2em;
+}
+
+#formu {
+  padding-bottom: 2em;
+}
+
+.bread {
+  font-size: 1.2em;
+}
+
+#conte-videos {
+  padding-bottom: 2em;
+}
+
+#sec-index {
+  padding-bottom: 1em;
+}
+
+#carrusel {
+  margin-top: 5em;
+}
+
+.texto-rec {
+  font-size: 1.4em;
+  color: #2af598;
+}
+
+.nav-link {
+  text-decoration: underline;
 }/*# sourceMappingURL=estilos.css.map */
