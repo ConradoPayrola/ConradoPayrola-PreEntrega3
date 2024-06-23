@@ -186,7 +186,7 @@ form {
     padding: 3em;
     padding-bottom: 9em;
     border-radius: 1em;
-    
+
 
     .mb-3 {
         margin-bottom: 1rem;
@@ -274,7 +274,7 @@ div.container.recursos {
     transform: translate(3px, 3px);
 }
 
-#trabajadores{
+#trabajadores {
     width: 80%;
     height: 24em;
     margin: 1em;
@@ -282,31 +282,105 @@ div.container.recursos {
     margin-bottom: 2em;
 }
 
-#formu{
+#formu {
     padding-bottom: 2em;
 }
 
-.bread{
+.bread {
     font-size: 1.2em;
 }
 
-#conte-videos{
+#conte-videos {
     padding-bottom: 2em;
 }
 
-#sec-index{
+#sec-index {
     padding-bottom: 1em;
 }
 
-#carrusel{
+#carrusel {
     margin-top: 5em;
 }
 
-.texto-rec{
+.texto-rec {
     font-size: 1.4em;
     color: #2af598;
 }
 
-.nav-link{
+.nav-link {
     text-decoration: underline;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+
+    .ifr-recursos {
+        width: fit-content;
+    }
+
+}
+
+form {
+    height: 100%;
+    padding-top: 2em;
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+    width: 90%;
+    margin: 0 auto;
+    padding: 3em;
+    padding-bottom: 9em;
+    border-radius: 1em;
+}
+
+@media only screen and (min-width: 768px) {
+    form {
+        width: 50%;
+        margin-left: 23em;
+    }
+}
+
+.navbar img {
+    width: 4em;
+    height: auto;
+}
+
+.navbar-nav {
+    margin-left: 0;
+}
+
+.navbar-nav li {
+    margin-left: 1em;
+    font-size: 1em;
+}
+
+.breadcrumb {
+    margin-left: 1em;
+}
+
+footer {
+    padding: 1em;
+}
+
+.container {
+    padding: 1em;
+}
+
+#mapa-sede{
+    width: 100%;
+}
+
+#fig-sede{
+    width: 70%;
+}
+
+.card-sede{
+    margin: 4em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+
+
